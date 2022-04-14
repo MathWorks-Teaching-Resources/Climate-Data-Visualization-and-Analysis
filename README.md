@@ -5,6 +5,8 @@ _Created with R2021b. Compatible with R2021b and later releases._
 ## Description ##
 Learn the basics of how to import, visualize, and analyze climate data using MATLAB&reg; [live scripts](https://www.mathworks.com/products/matlab/live-editor.html) in this introductory module. In the first script, you will import temperature anomaly time-series data from the Global Historical Climatology Network (GHCN) [1] and atmospheric carbon dioxide data from the Global Monitoring Laboratory (GML) [3]. These data chronicle climate change on a global scale. Afterward, you will analyze changes to Arctic sea ice using data from the National Snow and Ice Data Center (NSIDC) [5]. The final two scripts explore Landsat 8 multispectral imaging data from the United States Geological Survey (USGS) [6]. You will use this data to characterize drought in Northern California. This module follows a use-modify-create learning progression. Early on, you will use existing code and modify it to analyze different data sets. As you advance further into the module, you will apply what you learned to write your own MATLAB code to analyze climate data.
 
+Get started with the module by downloading and unzipping the repository. Then, double-click the project .prj file inside MATLAB. From there, you can follow the landing page instructions to get started with the examples and labs.
+
 This module assumes that you already have a basic understanding of MATLAB. If you do not, consider completing [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) before starting this module.
 
 The solutions are available upon instructor request. If you would like to request solutions or have a question, contact the <a href="mailto:onlineteaching@mathworks.com">MathWorks online teaching team.</a>
@@ -13,7 +15,7 @@ The solutions are available upon instructor request. If you would like to reques
 
 <table style="vertical-align:top">
   <tr>
-    <th>Module</th>
+    <th>Section</th>
     <th>Learning Goals</th>
   </tr>
   <tr>
