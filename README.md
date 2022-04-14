@@ -21,7 +21,7 @@ The solutions are available upon instructor request. If you would like to reques
   <tr>
     <td>
         <b>1. Global Temperature</b><br><br>
-        <img width="400" src="./Images/TempAnomaly.png" style="margin:10px" >
+        <img width="400" src="https://user-images.githubusercontent.com/81383420/163450817-5ab4b4df-2e12-418a-aca3-4aedf6f60c70.png" style="margin:10px" >
     </td>
     <td>    
         <ul>
@@ -35,7 +35,7 @@ The solutions are available upon instructor request. If you would like to reques
   <tr>
     <td>
         <b>2. Arctic Sea Ice</b><br><br>
-        <img width="400" src="./Images/ArcticSeaIce.png" style="margin:10px" >
+        <img width="400" src="https://user-images.githubusercontent.com/81383420/163451386-f21ef78a-140d-4d7b-84cd-4901d16b4c18.png" style="margin:10px" >
     </td>
     <td>    
         <ul>
@@ -49,7 +49,7 @@ The solutions are available upon instructor request. If you would like to reques
   <tr>
     <td>
         <b>3. Multispectral Imaging</b><br><br>
-        <img  width="500" src="./Images/Oroville.png" style="margin:10px" >
+        <img  width="400" src="https://user-images.githubusercontent.com/81383420/163451224-17921d42-74f1-4bf3-8a7b-4b72410c188d.png" style="margin:10px" >
     </td>
     <td>    
         <ul>
@@ -63,7 +63,7 @@ The solutions are available upon instructor request. If you would like to reques
   <tr>
     <td>
         <b>4. Multispectral Indices</b><br><br>
-        <img  width="500" src="./Images/VegetationChange.png" style="margin:10px" >
+        <img  width="400" src="https://user-images.githubusercontent.com/81383420/163451065-c0a18a12-1132-411e-a70a-73d6744cdc60.png" style="margin:10px" >
     </td>
     <td>    
         <ul>
