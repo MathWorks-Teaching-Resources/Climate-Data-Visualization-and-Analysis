@@ -84,7 +84,7 @@ The solutions are available upon instructor request. If you would like to reques
 MATLAB, Image Processing Toolbox&trade;, Statistics and Machine Learning Toolbox&trade;, Curve Fitting Toolbox&trade;
 
 ## License ##
-The license for this module is available in the [LICENSE.md](license.md) file in this GitHub repository.
+The license for this module is available in the LICENSE.md file in this GitHub repository.
 
 ## Educator Resources ##
 * [Featured Courseware](https://www.mathworks.com/academia/courseware/course-materials.html)
