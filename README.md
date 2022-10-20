@@ -1,4 +1,7 @@
-# Climate Data Visualization and Analysis [![View Climate Data Visualization and Analysis on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis) 
+# Climate Data Visualization and Analysis 
+[![View Climate Data Visualization and Analysis on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis) or 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj)
+
 **Curriculum Module**  
 _Created with R2021b. Compatible with R2021b and later releases._  
 
@@ -20,7 +23,7 @@ The solutions are available upon instructor request. If you would like to reques
   </tr>
   <tr>
     <td>
-        <b>1. Global Temperature</b><br><br>
+        <b>1. Global Temperature</b> [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=GlobalTemperature.mlx)<br><br>
         <img width="400" src="https://user-images.githubusercontent.com/81383420/163450817-5ab4b4df-2e12-418a-aca3-4aedf6f60c70.png" style="margin:10px" >
     </td>
     <td>    
@@ -34,7 +37,7 @@ The solutions are available upon instructor request. If you would like to reques
   </tr>
   <tr>
     <td>
-        <b>2. Arctic Sea Ice</b><br><br>
+        <b>2. Arctic Sea Ice</b> [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=ArcticSeaIce.mlx)<br><br>
         <img width="400" src="https://user-images.githubusercontent.com/81383420/163451386-f21ef78a-140d-4d7b-84cd-4901d16b4c18.png" style="margin:10px" >
     </td>
     <td>    
@@ -48,7 +51,7 @@ The solutions are available upon instructor request. If you would like to reques
   </tr>
   <tr>
     <td>
-        <b>3. Multispectral Imaging</b><br><br>
+        <b>3. Multispectral Imaging</b> [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=MultispectralImaging.mlx)<br><br>
         <img  width="400" src="https://user-images.githubusercontent.com/81383420/163451224-17921d42-74f1-4bf3-8a7b-4b72410c188d.png" style="margin:10px" >
     </td>
     <td>    
@@ -62,7 +65,7 @@ The solutions are available upon instructor request. If you would like to reques
   </tr>
   <tr>
     <td>
-        <b>4. Multispectral Indices</b><br><br>
+        <b>4. Multispectral Indices</b> [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=MultispectralIndices.mlx)<br><br>
         <img  width="400" src="https://user-images.githubusercontent.com/81383420/163451065-c0a18a12-1132-411e-a70a-73d6744cdc60.png" style="margin:10px" >
     </td>
     <td>    
