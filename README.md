@@ -10,7 +10,7 @@ Learn the basics of how to import, visualize, and analyze climate data using MAT
 
 Get started with the module by downloading and unzipping the repository. Then, double-click the project .prj file inside MATLAB. From there, you can follow the landing page instructions to get started with the examples and labs.
 
-This module assumes that you already have a basic understanding of MATLAB. If you do not, consider completing [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) before starting this module.
+This module assumes that you already have a basic understanding of MATLAB. If you do not, consider completing [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) before starting this module.
 
 The solutions are available upon instructor request. If you would like to request solutions or have a question, contact the <a href="mailto:onlineteaching@mathworks.com">MathWorks online teaching team.</a>
 
@@ -81,7 +81,7 @@ The solutions are available upon instructor request. If you would like to reques
 </table>
 
 ## Suggested Prework ##
-[MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.
+[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.
 
 ## Products ##
 MATLAB, Image Processing Toolbox&trade;, Statistics and Machine Learning Toolbox&trade;, Curve Fitting Toolbox&trade;
