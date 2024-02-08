@@ -37,7 +37,7 @@ This module assumes you have a basic understanding of MATLAB. If you do not, con
 ### Accessing the Module
 ### **On MATLAB Online:**
 
-Use the [![image_1.png](Images/image_1.png)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj) link to download the module. You will be prompted to log in or create a MathWorks account. The project will be loaded, and you will see an app with several navigation options to get you started.
+Use the [<img src="Images/image_1.png" width="154" alt="image_1.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj) link to download the module. You will be prompted to log in or create a MathWorks account. The project will be loaded, and you will see an app with several navigation options to get you started.
 
 ### **On Desktop:**
 
@@ -57,19 +57,19 @@ MATLAB® is used throughout. Tools from Image Processing Toolbox™, Statistics 
  *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis)
 
 ## [**GlobalTemperature.mlx**](Scripts/GlobalTemperature.mlx)
-| ![image_3.png](Images/image_3.png) | **In this script, students will...** <br>-  Load time\-series temperature data into MATLAB <br>-  Compare regional temperature trends using time\-series plots <br>-  Apply array indexing to compute changes to CO2 concentration <br>-  Discuss correlation and autocorrelation of climate time\-series data  |
+| <img src="Images/image_3.png" width="251" alt="image_3.png"> | **In this script, students will...** <br>-  Load time\-series temperature data into MATLAB <br>-  Compare regional temperature trends using time\-series plots <br>-  Apply array indexing to compute changes to CO2 concentration <br>-  Discuss correlation and autocorrelation of climate time\-series data  |
 | :-- | :-- |
 
 ## [**ArcticSeaIce.mlx**](Scripts/ArcticSeaIce.mlx)
-| ![image_4.png](Images/image_4.png) | **In this script, students will...** <br>-  Load and display Arctic sea ice extent GeoTIFF data <br>-  Quantify Arctic sea ice extent using logical operators <br>-  Use a for loop to analyze changes to Arctic sea ice from 1979 to 2021 <br>-  Compute the linear trend of Arctic sea ice extent  |
+| <img src="Images/image_4.png" width="251" alt="image_4.png"> | **In this script, students will...** <br>-  Load and display Arctic sea ice extent GeoTIFF data <br>-  Quantify Arctic sea ice extent using logical operators <br>-  Use a for loop to analyze changes to Arctic sea ice from 1979 to 2021 <br>-  Compute the linear trend of Arctic sea ice extent  |
 | :-- | :-- |
 
 ## [**MultispectralImaging.mlx**](Scripts/MultispectralImaging.mlx)
-| ![image_5.png](Images/image_5.png) | **In this script, students will...** <br>-  List the spectral band designations for the Landsat 8 satellite <br>-  Load and display single band images <br>-  Use metadata to rescale a spectral band <br>-  Create an RGB image from spectral bands  |
+| <img src="Images/image_5.png" width="251" alt="image_5.png"> | **In this script, students will...** <br>-  List the spectral band designations for the Landsat 8 satellite <br>-  Load and display single band images <br>-  Use metadata to rescale a spectral band <br>-  Create an RGB image from spectral bands  |
 | :-- | :-- |
 
 ## [**MultispectralIndices.mlx**](Scripts/MultispectralIndices.mlx)
-| ![image_6.png](Images/image_6.png) | **In this script, students will...** <br>-  Compute multispectral indices (NDVI and NDWI) from Landsat 8 data <br>-  Analyze the reduction of reservoir area due to drought <br>-  Superimpose a multispectral index on an RGB image <br>-  Quantify changes to vegetation <br>-  Apply image processing techniques, such as creating a binary mask and registering images  |
+| <img src="Images/image_6.png" width="251" alt="image_6.png"> | **In this script, students will...** <br>-  Compute multispectral indices (NDVI and NDWI) from Landsat 8 data <br>-  Analyze the reduction of reservoir area due to drought <br>-  Superimpose a multispectral index on an RGB image <br>-  Quantify changes to vegetation <br>-  Apply image processing techniques, such as creating a binary mask and registering images  |
 | :-- | :-- |
 
 
@@ -80,17 +80,17 @@ The license for this module is available in the [LICENSE.md](https://github.com/
 # Related Courseware Modules
 
 ## [**Regression Basics**](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)
-| ![image_7.png](Images/image_7.png) | **Available on:**\href[![image_8.png](Images/image_8.png)](://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)\href{http[![image_9.png](Images/image_9.png)](tlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics | project=RegressionBasics.prj)[GitHub](https://github.com/MathWorks-Teaching-Resources/Regression-Basics)  |
+| <img src="Images/image_7.png" width="171" alt="image_7.png"> | **Available on:** [<img src="Images/image_8.png" width="129" alt="image_8.png">](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)  [<img src="Images/image_9.png" width="130" alt="image_9.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj) [GitHub](https://github.com/MathWorks-Teaching-Resources/Regression-Basics)  |
 | :-- | :-- |
 
 
 ## [**Machine Learning for Regression**](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)
-| ![image_10.png](Images/image_10.png) | **Available on:**\href{https://w[![image_11.png](Images/image_11.png)](hworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)\href{https://matlab[![image_12.png](Images/image_12.png)](orks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression | project=MLforRegression.prj)[GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression)  |
+| <img src="Images/image_10.png" width="171" alt="image_10.png"> | **Available on:** [<img src="Images/image_11.png" width="129" alt="image_11.png">](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)  [<img src="Images/image_12.png" width="130" alt="image_12.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression&project=MLforRegression.prj) [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression)  |
 | :-- | :-- |
 
 
 ## [**Machine Learning Methods: Clustering**](https://www.mathworks.com/matlabcentral/fileexchange/135381-machine-learning-methods-clustering)
-| ![image_13.png](Images/image_13.png) | **Available on:**\href{https://www.mathwor[![image_14.png](Images/image_14.png)](/matlabcentral/fileexchange/135381-machine-learning-methods-clustering)\href{https://matlab.mathworks[![image_15.png](Images/image_15.png)](pen/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering | project=MLMethodsClustering.prj)[GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering)  |
+| <img src="Images/image_13.png" width="171" alt="image_13.png"> | **Available on:** [<img src="Images/image_14.png" width="129" alt="image_14.png">](https://www.mathworks.com/matlabcentral/fileexchange/135381-machine-learning-methods-clustering)  [<img src="Images/image_14.png" width="130" alt="image_14.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering&project=MLMethodsClustering.prj) [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering)  |
 | :-- | :-- |
 
 
@@ -106,4 +106,5 @@ Looking for more? Find an issue? Have a suggestion? Please contact the [MathWork
 
  *©* Copyright 2024 The MathWorks™, Inc
 
-
+
+
