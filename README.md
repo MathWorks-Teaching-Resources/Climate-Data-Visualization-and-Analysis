@@ -56,19 +56,19 @@ MATLAB® is used throughout. Tools from Image Processing Toolbox™, Statistics 
 
  *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis)
 
-## [**GlobalTemperature.mlx**](Scripts/GlobalTemperature.mlx)
+## [**GlobalTemperature.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=Scripts/GlobalTemperature.mlx)
 | <img src="Images/image_3.png" width="251" alt="image_3.png"> | **In this script, students will...** <br>-  Load time\-series temperature data into MATLAB <br>-  Compare regional temperature trends using time\-series plots <br>-  Apply array indexing to compute changes to CO2 concentration <br>-  Discuss correlation and autocorrelation of climate time\-series data  |
 | :-- | :-- |
 
-## [**ArcticSeaIce.mlx**](Scripts/ArcticSeaIce.mlx)
+## [**ArcticSeaIce.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=Scripts/ArcticSeaIce.mlx)
 | <img src="Images/image_4.png" width="251" alt="image_4.png"> | **In this script, students will...** <br>-  Load and display Arctic sea ice extent GeoTIFF data <br>-  Quantify Arctic sea ice extent using logical operators <br>-  Use a for loop to analyze changes to Arctic sea ice from 1979 to 2021 <br>-  Compute the linear trend of Arctic sea ice extent  |
 | :-- | :-- |
 
-## [**MultispectralImaging.mlx**](Scripts/MultispectralImaging.mlx)
+## [**MultispectralImaging.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=Scripts/MultispectralImaging.mlx)
 | <img src="Images/image_5.png" width="251" alt="image_5.png"> | **In this script, students will...** <br>-  List the spectral band designations for the Landsat 8 satellite <br>-  Load and display single band images <br>-  Use metadata to rescale a spectral band <br>-  Create an RGB image from spectral bands  |
 | :-- | :-- |
 
-## [**MultispectralIndices.mlx**](Scripts/MultispectralIndices.mlx)
+## [**MultispectralIndices.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=Scripts/MultispectralIndices.mlx)
 | <img src="Images/image_6.png" width="251" alt="image_6.png"> | **In this script, students will...** <br>-  Compute multispectral indices (NDVI and NDWI) from Landsat 8 data <br>-  Analyze the reduction of reservoir area due to drought <br>-  Superimpose a multispectral index on an RGB image <br>-  Quantify changes to vegetation <br>-  Apply image processing techniques, such as creating a binary mask and registering images  |
 | :-- | :-- |
 
