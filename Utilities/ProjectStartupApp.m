@@ -97,9 +97,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
 
         % Code that executes after component creation
         function startupFcn(app)
-            
-            % Move gui to center of screen
-            movegui(app.UIFigure,"center")
 
             % Switch tab to review if has not been reviewed yet
             if isfile(fullfile("Utilities","ProjectSettings.mat"))
@@ -132,7 +129,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
                 Request.Header    = HeaderField("X-GitHub-Api-Version","2022-11-28");
                 Request.Header(2) = HeaderField("Accept","application/vnd.github+json");
                 [Answer,~,~] = send(Request,Address);
-                websave(fullfile("Utilities/SurveyLinks.mat"),Answer.Body.Data.download_url)
+                websave(fullfile("Utilities/SurveyLinks.mat"),Answer.Body.Data.download_url);
             catch
             end
 
@@ -202,9 +199,8 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             % Create UIFigure and hide until all components are created
             app.UIFigure = uifigure('Visible', 'off');
             app.UIFigure.AutoResizeChildren = 'off';
-            app.UIFigure.Color = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.UIFigure.Position = [100 100 276 430];
-            app.UIFigure.Name = 'MATLAB App';
+            app.UIFigure.Name = 'Startup App';
             app.UIFigure.Resize = 'off';
             app.UIFigure.CloseRequestFcn = createCallbackFcn(app, @UIFigureCloseRequest, true);
 
@@ -217,8 +213,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.WelcomeTab = uitab(app.TabGroup);
             app.WelcomeTab.AutoResizeChildren = 'off';
             app.WelcomeTab.Title = 'Tab';
-            app.WelcomeTab.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
-            app.WelcomeTab.ForegroundColor = [0.850980392156863 0.850980392156863 0.850980392156863];
 
             % Create WelcomeTitle
             app.WelcomeTitle = uilabel(app.WelcomeTab);
@@ -227,34 +221,27 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.WelcomeTitle.WordWrap = 'on';
             app.WelcomeTitle.FontSize = 24;
             app.WelcomeTitle.FontWeight = 'bold';
-            app.WelcomeTitle.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.WelcomeTitle.Position = [2 271 274 148];
             app.WelcomeTitle.Text = 'Welcome to Climate Data Visualization and Analysis';
 
             % Create MainMenuButton
             app.MainMenuButton = uibutton(app.WelcomeTab, 'push');
             app.MainMenuButton.ButtonPushedFcn = createCallbackFcn(app, @MainMenuButtonPushed, true);
-            app.MainMenuButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.MainMenuButton.FontSize = 18;
-            app.MainMenuButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.MainMenuButton.Position = [59 96 161 35];
             app.MainMenuButton.Text = 'Main Menu';
 
             % Create ReviewUsButton
             app.ReviewUsButton = uibutton(app.WelcomeTab, 'push');
             app.ReviewUsButton.ButtonPushedFcn = createCallbackFcn(app, @ReviewUsButtonPushed, true);
-            app.ReviewUsButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.ReviewUsButton.FontSize = 18;
-            app.ReviewUsButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.ReviewUsButton.Position = [59 10 161 35];
             app.ReviewUsButton.Text = 'Review Us';
 
             % Create READMEButton
             app.READMEButton = uibutton(app.WelcomeTab, 'push');
             app.READMEButton.ButtonPushedFcn = createCallbackFcn(app, @READMEButtonPushed, true);
-            app.READMEButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.READMEButton.FontSize = 18;
-            app.READMEButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.READMEButton.Position = [59 53 161 35];
             app.READMEButton.Text = 'README';
 
@@ -267,8 +254,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.TabReview = uitab(app.TabGroup);
             app.TabReview.AutoResizeChildren = 'off';
             app.TabReview.Title = 'Tab2';
-            app.TabReview.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
-            app.TabReview.ForegroundColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.TabReview.HandleVisibility = 'off';
 
             % Create ReviewText
@@ -277,7 +262,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.ReviewText.VerticalAlignment = 'top';
             app.ReviewText.WordWrap = 'on';
             app.ReviewText.FontSize = 18;
-            app.ReviewText.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.ReviewText.Position = [16 243 245 69];
             app.ReviewText.Text = 'Plese help us improve your experience by answering a few questions.';
 
@@ -288,7 +272,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.ReviewTitle.WordWrap = 'on';
             app.ReviewTitle.FontSize = 24;
             app.ReviewTitle.FontWeight = 'bold';
-            app.ReviewTitle.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.ReviewTitle.Position = [2 271 274 148];
             app.ReviewTitle.Text = 'Welcome to Climate Data Visualization and Analysis';
 
@@ -306,27 +289,21 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             % Create FacultyButton
             app.FacultyButton = uibutton(app.TabReview, 'push');
             app.FacultyButton.ButtonPushedFcn = createCallbackFcn(app, @FacultyButtonPushed, true);
-            app.FacultyButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.FacultyButton.FontSize = 18;
-            app.FacultyButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.FacultyButton.Position = [64 127 150 40];
             app.FacultyButton.Text = 'Faculty';
 
             % Create StudentButton
             app.StudentButton = uibutton(app.TabReview, 'push');
             app.StudentButton.ButtonPushedFcn = createCallbackFcn(app, @StudentButtonPushed, true);
-            app.StudentButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.StudentButton.FontSize = 18;
-            app.StudentButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.StudentButton.Position = [64 80 150 40];
             app.StudentButton.Text = 'Student';
 
             % Create OtherButton
             app.OtherButton = uibutton(app.TabReview, 'push');
             app.OtherButton.ButtonPushedFcn = createCallbackFcn(app, @OtherButtonPushed, true);
-            app.OtherButton.BackgroundColor = [0.129411764705882 0.129411764705882 0.129411764705882];
             app.OtherButton.FontSize = 18;
-            app.OtherButton.FontColor = [0.850980392156863 0.850980392156863 0.850980392156863];
             app.OtherButton.Position = [64 34 150 40];
             app.OtherButton.Text = 'Other';
 
