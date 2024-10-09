@@ -200,7 +200,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.UIFigure = uifigure('Visible', 'off');
             app.UIFigure.AutoResizeChildren = 'off';
             app.UIFigure.Position = [100 100 276 430];
-            app.UIFigure.Name = 'Startup App';
+            app.UIFigure.Name = 'StartUp App';
             app.UIFigure.Resize = 'off';
             app.UIFigure.CloseRequestFcn = createCallbackFcn(app, @UIFigureCloseRequest, true);
 
