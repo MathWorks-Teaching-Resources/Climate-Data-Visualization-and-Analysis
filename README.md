@@ -24,7 +24,7 @@ The instructions inside the live scripts will guide you through the exercises an
 
 ## Contact Us
 
-Solutions are available upon instructor request. Contact the [MathWorks teaching resources team](mailto:onlineteaching@mathworks.com) if you would like to request solutions, provide feedback, or if you have a question.
+Contact the [MathWorks teaching resources team](mailto:onlineteaching@mathworks.com) if you would like to provide feedback, or if you have a question.
 
 
 ## Prerequisites
@@ -51,9 +51,6 @@ Ensure you have all the required products (listed below) installed. If you need 
 MATLAB® is used throughout. Tools from Image Processing Toolbox™, Statistics and Machine Learning Toolbox™, and Curve Fitting Toolbox™ are used as well.
 
 # Scripts
-
- *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis)
-
 ## [**GlobalTemperature.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=Scripts/GlobalTemperature.mlx)
 |      |      |
 | :-- | :-- |
