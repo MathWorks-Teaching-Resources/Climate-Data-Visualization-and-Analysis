@@ -4,7 +4,7 @@
 
 [![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/110125-climate-data-visualization-and-analysis) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Climate-Data-Visualization-and-Analysis&project=ClimateVis.prj&file=README.mlx)
 
-[![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/climate-data-visualization-and-analysis/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/climate-data-visualization-and-analysis)
+[![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Climate-Data-Visualization-and-Analysis/TestedWith.json)](https://mathworks-teaching-resources.github.io/Climate-Data-Visualization-and-Analysis/)
 
 **Curriculum Module**
 
